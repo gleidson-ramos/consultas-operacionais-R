@@ -40,7 +40,7 @@ Abra o R ou RStudio e execute:
 source("pacotes_instalados.R")
 ```
 
-### 3. Configure a conexão com o banco de dados
+### Configure a conexão com o banco de dados
 Edite o arquivo `conexao.R` com as suas credenciais:
 ```r
 con <- dbConnect(
@@ -53,7 +53,7 @@ con <- dbConnect(
 )
 ```
 
-### 4. Execute um dashboard
+### Execute um dashboard
 No RStudio, abra o arquivo desejado (ex: `dashboard_01_operacoes.R`) e clique em **Run App**, ou execute via console:
 ```r
 shiny::runApp("dashboard_01_operacoes.R")
