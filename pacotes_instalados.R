@@ -1,0 +1,10 @@
+install.packages(c(
+  "shiny",
+  "bs4Dash",
+  "plotly",
+  "DBI",
+  "RMySQL",
+  "leaflet",
+  "dplyr",
+  "leaflet.extras"
+))

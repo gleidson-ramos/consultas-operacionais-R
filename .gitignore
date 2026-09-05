@@ -1,0 +1,12 @@
+# Credenciais e configurações sensíveis
+conexao.R
+.Renviron
+
+# Arquivos gerados pelo R
+.RData
+.Rhistory
+.Rproj.user/
+
+# Arquivos do sistema
+Thumbs.db
+.DS_Store
